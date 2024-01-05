@@ -1,0 +1,14 @@
+{
+  "login": "Вход",
+  "don't have an account yet?": "У вас еще нет аккаунта?",
+  "register": "Регистрация",
+  "phone number": "Номер телефона",
+  "password": "Пароль",
+  "forgot your password": "Забыли пароль?",
+  "or": "или",
+  "login with google": "Вход через Google",
+  "login with facebook": "Вход через Facebook",
+  "register with google": "Регистрация через Google",
+  "register with facebook": "Регистрация через Facebook",
+  "already have an account?": "Уже есть аккаунт?"
+}

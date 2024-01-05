@@ -1,0 +1,77 @@
+@import "../../styles/colors";
+.register {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10rem;
+  align-items: center;
+  box-shadow: 1rem 1rem 3.5rem #8e8e8e;
+  padding: 0 5rem;
+  border-radius: 2rem;
+  .sidebar {
+    grid-row: 1 / span 2;
+    img {
+      height: 40rem;
+    }
+  }
+  .action {
+    margin-top: 8.5rem;
+    .form {
+      margin-bottom: 3.2rem;
+      .heading {
+        color: #344054;
+        font-size: 2.4rem;
+        font-weight: 700;
+        margin-bottom: 1.6rem;
+        text-align: center;
+      }
+      .offer-register {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 3.2rem;
+        span {
+          font-weight: 400;
+          color: #344054;
+          margin-right: 8px;
+        }
+        a {
+          color: $color-primary300;
+          font-weight: 600;
+        }
+      }
+      .register-input {
+        margin-bottom: 1.6rem;
+      }
+      .password-input {
+        margin-bottom: 3.2rem;
+      }
+    }
+
+    .or {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      height: 1.5rem;
+      margin-bottom: 3.2rem;
+      div {
+        width: 12rem;
+        height: 2px;
+        border-radius: 4px;
+        background-color: #d0d5dd;
+      }
+      span {
+        color: #667085;
+        font-size: 1.6rem;
+        font-weight: 700;
+        line-height: 7px;
+      }
+    }
+
+    .others {
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem;
+    }
+  }
+}
